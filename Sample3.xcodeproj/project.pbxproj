@@ -17,6 +17,7 @@
 		77D4AA15299D1471004C95FE /* Sample3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D4AA14299D1471004C95FE /* Sample3UITests.swift */; };
 		77D4AA17299D1471004C95FE /* Sample3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D4AA16299D1471004C95FE /* Sample3UITestsLaunchTests.swift */; };
 		77D4AA2A299D15D2004C95FE /* SamplePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 77D4AA29299D15D2004C95FE /* SamplePackage */; };
+		77D4AA2D299D36EC004C95FE /* SamplePackageMigrate in Frameworks */ = {isa = PBXBuildFile; productRef = 77D4AA2C299D36EC004C95FE /* SamplePackageMigrate */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		77D4AA14299D1471004C95FE /* Sample3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample3UITests.swift; sourceTree = "<group>"; };
 		77D4AA16299D1471004C95FE /* Sample3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample3UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		77D4AA27299D1539004C95FE /* SamplePackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SamplePackage; path = ../../SamplePackage; sourceTree = "<group>"; };
+		77D4AA2B299D36AD004C95FE /* SamplePackageMigrate */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SamplePackageMigrate; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77D4AA2A299D15D2004C95FE /* SamplePackage in Frameworks */,
+				77D4AA2D299D36EC004C95FE /* SamplePackageMigrate in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +106,7 @@
 		77D4A9F2299D1470004C95FE /* Sample3 */ = {
 			isa = PBXGroup;
 			children = (
+				77D4AA2B299D36AD004C95FE /* SamplePackageMigrate */,
 				77D4AA27299D1539004C95FE /* SamplePackage */,
 				77D4A9F3299D1470004C95FE /* AppDelegate.swift */,
 				77D4A9F5299D1470004C95FE /* SceneDelegate.swift */,
@@ -157,6 +161,7 @@
 			name = Sample3;
 			packageProductDependencies = (
 				77D4AA29299D15D2004C95FE /* SamplePackage */,
+				77D4AA2C299D36EC004C95FE /* SamplePackageMigrate */,
 			);
 			productName = Sample3;
 			productReference = 77D4A9F0299D1470004C95FE /* Sample3.app */;
@@ -616,6 +621,10 @@
 		77D4AA29299D15D2004C95FE /* SamplePackage */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SamplePackage;
+		};
+		77D4AA2C299D36EC004C95FE /* SamplePackageMigrate */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SamplePackageMigrate;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

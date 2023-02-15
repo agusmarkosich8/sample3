@@ -7,15 +7,16 @@
 
 import UIKit
 import SamplePackage
+import SamplePackageMigrate
 
 class ViewController: UIViewController {
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(SamplePackageMigrate().text)
         let sampleViewController = SampleViewController()
         navigationController?.pushViewController(sampleViewController, animated: true)
-        // Do any additional setup after loading the view.
     }
 
 
